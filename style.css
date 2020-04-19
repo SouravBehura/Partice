@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(bg1.jpg) ;
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 73%;
+}
+
+footer{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), rgb(50, 50, 50) ;
+    height: 30vh;
+    background-size: cover;
+}
+
+section{
+    background-color: black;
+    height: 50vh;
+    background-size: cover;
+}
+
+summary{
+    background-color: black;
+    height: 15vh;
+    background-size: cover;
+}
