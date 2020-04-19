@@ -24,7 +24,6 @@ footer{
 
 section{
     background-color: white;
-    height: 50vh;
     background-size: cover;
 }
 
@@ -44,12 +43,4 @@ summary{
     transform: translate(-50%, -50%);
     width: 10%;
     height: 85%;
-}
-
-.services{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
 }
