@@ -44,3 +44,19 @@ summary{
     width: 90%;
     height: 85%;
 }
+.wline{
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 85%;
+}
+
+main{
+    background-color: rgb(185, 185, 48);
+    background-size: cover;
+}
