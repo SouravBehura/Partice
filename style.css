@@ -17,12 +17,6 @@ header{
     width: 73%;
 }
 
-footer{
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), rgb(50, 50, 50) ;
-    height: 30vh;
-    background-size: cover;
-}
-
 section{
     background-color: black;
     height: 50vh;
