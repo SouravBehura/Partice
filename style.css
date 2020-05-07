@@ -188,7 +188,6 @@ summary{
     overflow: hidden;
     position: relative;
     background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/wtQNCZ.jpg) ;
-    height: 30vh;
     background-size: cover;
 }
 
