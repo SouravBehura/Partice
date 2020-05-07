@@ -30,7 +30,7 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(25%, -60%);
+    transform: translate(-50%, -50%);
     width: 73%;
 }
 
@@ -97,7 +97,7 @@ summary{
     padding-top: 50%;
     overflow: hidden;
     position: relative;
-    background-image: url(img/New.jpg);
+    background-image: url(img/cms.jpg);
     background-size: 100% 100%;
 }
 
@@ -107,7 +107,7 @@ summary{
     overflow: hidden;
     position: relative;
     background-image: url(img/RM.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
     /*height: 43vh;*/
 }
 
@@ -117,7 +117,7 @@ summary{
     overflow: hidden;
     position: relative;
     background-image: url(img/Digital.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
     /*height: 43vh;*/
 }
 
@@ -127,7 +127,7 @@ summary{
     overflow: hidden;
     position: relative;
     background-image: url(img/Community.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .sright{
@@ -164,7 +164,7 @@ summary{
     overflow: hidden;
     position: relative;
     background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/InterNations-Expat-Blog_Professional-Networking_Pic-2.jpg) ;
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
 }
 
@@ -285,6 +285,24 @@ summary{
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-direction: alternate;
+}
+
+.carousel {
+}
+
+.carousel img {
+    position: relative;
+      top: 0px;
+      left: 0px;
+      margin-right: 10px;
+    display: block;
+    height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+    .carousel img {
+      height: 400px;
+    }
   }
 
   @media screen and (min-width: 601px) {
