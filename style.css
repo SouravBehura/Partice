@@ -98,7 +98,7 @@ summary{
     overflow: hidden;
     position: relative;
     background-image: url(img/New.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .hrt{
