@@ -188,6 +188,7 @@ summary{
     overflow: hidden;
     position: relative;
     background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/wtQNCZ.jpg) ;
+    
     background-size: cover;
 }
 
@@ -262,17 +263,34 @@ summary{
     display: inline-block; 
 }
 
-.Blog{
-    height: 500px;
+.Blogl{
     width: 100%;
-    background: url(img/yih.png);
+    padding-top: 80%;
+    background: url(img/Blog-2-Image-1.jpg);
     display: inline-block;
+    background-size: 100% 100%;
+}
+
+.Blogm{
+    width: 100%;
+    padding-top: 80%;
+    background: url(img/im-te-digital-branch-jpg.jpg);
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.Blogr{
+    width: 100%;
+    padding-top: 80%;
+    background: url(img/Online-retail-sees-the-largest-jump-in-new-businesses-of-all-industries.jpg);
+    display: inline-block;
+    background-size: 100% 100%;
 }
 
 .Blogtxt{
-    height: 30%;
+    height: 140px;
     width: 100%;
-    transform: translate(0%, 234%);
+    transform: translate(0%, -6%);
     background-color: rgb(8, 72, 145);
 }
 
@@ -296,6 +314,16 @@ summary{
       margin-right: 10px;
     display: block;
     height: 200px;
+}
+
+.toppad{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .toppad{
+        padding-top: 11px;
+    }
 }
 
 @media screen and ( min-width: 768px ) {
