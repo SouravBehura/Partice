@@ -320,16 +320,12 @@ summary{
     padding-top: 15px;
 }
 
-.hpad{
-    padding-top: 15px;
-}
-
 @media screen and (max-width: 600px){
     .toppad{
         padding-top: 11px;
     }
-    .hpad{
-        padding-top: 25px;
+    .Highlightscontaint {
+        top: 219%;
     }
 }
 
@@ -337,8 +333,8 @@ summary{
     .toppad{
         padding-top: 15px;
     }
-    .hpad{
-        padding-top: 11px;
+    .Highlightscontaint {
+        top: 171%;
     }
 }
 
