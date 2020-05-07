@@ -61,7 +61,7 @@ summary{
 .line{
     width: 112px;
     height: 47px;
-    border-bottom: 4px solid yellow;
+    border-bottom: 4px solid rgb(231, 231, 6);
     position: absolute;
     top: 70%;
     left: 50%;
@@ -69,7 +69,8 @@ summary{
     width: 50%;
     height: 85%;
 }
-.wline{
+
+/*.wline{
     width: 112px;
     height: 47px;
     border-bottom: 2px solid yellow;
@@ -79,7 +80,7 @@ summary{
     transform: translate(-50%, -50%);
     width: 50%;
     height: 85%;
-}
+}*/
 
 .flow {
     margin-left: auto;
