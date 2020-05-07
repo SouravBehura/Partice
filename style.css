@@ -4,17 +4,42 @@ body{
 }
 
 header{
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(bg1.jpg) ;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/img-03.jpg) ;
     height: 100vh;
     background-size: cover;
 }
 
-.banner{
+#myVideo {
+    position: absolute;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+/*.heading{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 73%;
+}*/
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -60%);
+    width: 73%;
+}
+
+.contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 footer{
@@ -36,52 +61,154 @@ summary{
 .line{
     width: 112px;
     height: 47px;
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid yellow;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 50%;
     height: 85%;
 }
 .wline{
     width: 112px;
     height: 47px;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid yellow;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 50%;
     height: 85%;
-}
-
-main{
-    background-color: rgb(185, 185, 48);
-    background-size: cover;
 }
 
 .flow {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 96%;
     box-shadow: 0 0 60px rgba(0, 0, 0, 1);
     overflow: hidden;
     position: relative;
-    /*content: url(img/slide3.webp);
-    content: no-repeat;*/
+    content: url(img/slide3.jpg);
+    content: no-repeat;
 }
 
+.hlt{
+    width: 95%;
+    padding-top: 50%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/CMS.jpg);
+    background-size: contain;
+}
 
+.hrt{
+    width: 105%;
+    padding-top: 45%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/RM.jpg);
+    background-size: contain;
+    /*height: 43vh;*/
+}
+
+.hlb{
+    width: 105%;
+    padding-top: 45%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/Digital.jpg);
+    background-size: contain;
+    /*height: 43vh;*/
+}
+
+.hrb{
+    width: 95%;
+    padding-top: 50%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/Community.jpg);
+    background-size: contain;
+}
+
+.sright{
+    right: 3%;
+}
+
+.up{
+    transform: translate(0%, -10%);
+}
+
+.Highlights {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 51%;
+    overflow: hidden;
+    position: relative;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/img-BSE-21.jpg) ;
+    background-size: cover;
+}
+
+.Highlightscontaint {
+    position: absolute;
+    top: 152%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.Feedback{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/InterNations-Expat-Blog_Professional-Networking_Pic-2.jpg) ;
+    height: 100vh;
+    background-size: cover;
+}
+
+.Services {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    position: relative;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/wtQNCZ.jpg) ;
+    height: 100vh;
+    background-size: cover;
+}
+
+.Insights {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    position: relative;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/wtQNCZ.jpg) ;
+    height: 30vh;
+    background-size: cover;
+}
+
+.istexty{
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(161, 161, 0);
+}
+
+.istextb{
+    color: black;
+}
 
 .bottom {
     position: absolute;
     width: 100%;
     height: 100%;
-    /*animation-name: fade;
+    /*animation-name: fadebottom;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 1s;
+    animation-duration: 10s;
     animation-direction: alternate;*/
 }
 
@@ -96,6 +223,60 @@ main{
     animation-direction: alternate;
 }
 
+.blackback {
+    background-color: black !important;
+}
+
+.navbar-fixed-top{
+    background-color: transparent;
+}
+
+.Mem1 {
+    height: 250px;
+    width: 250px;
+    background: url(img/yih.png);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.Mem2 {
+    height: 250px;
+    width: 250px;
+    background: url(img/yih.png);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.Mem3 {
+    height: 250px;
+    width: 250px;
+    background: url(img/yih.png);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.circles{
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(img/ecosystem.jpg);
+    background-size: contain;
+    display: inline-block; 
+}
+
+.Blog{
+    height: 500px;
+    width: 100%;
+    background: url(img/yih.png);
+    display: inline-block;
+}
+
+.Blogtxt{
+    height: 30%;
+    width: 100%;
+    transform: translate(0%, 234%);
+    background-color: rgb(8, 72, 145);
+}
+
 .top {
     width: 100%;
     height: 100%;
@@ -104,6 +285,19 @@ main{
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-direction: alternate;
+  }
+
+  @media screen and (min-width: 601px) {
+    h3.istexty {
+      font-size: 3rem;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    h3.istexty {
+      font-size: 2rem;
+    }
   }
 
   @keyframes fadetop {
@@ -177,3 +371,39 @@ main{
         opacity: 0;
     }*/
   }
+
+  /*@keyframes fadebottom {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+    /*60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }*/
