@@ -435,7 +435,7 @@ summary{
         top: 0px;
     }
     .retaill{
-        top: 100px;
+        top: 130px;
     }
     .retailr{
         top: 50px;
@@ -447,7 +447,10 @@ summary{
         top: -250px;
     }
     .lift{
-        top:-280px;
+        top:-250px;
+    }
+    .vline{
+        top: -250px;
     }
 }
 
@@ -487,6 +490,9 @@ summary{
     }
     .lift{
         top:-300px;
+    }
+    .vline{
+        top: -300px;
     }
 }
 
