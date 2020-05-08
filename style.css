@@ -54,8 +54,8 @@ section{
 
 summary{
     background-color: black;
-    height: 15vh;
     background-size: cover;
+    padding-bottom: 20%;
 }
 
 .line{
@@ -69,18 +69,16 @@ summary{
     width: 50%;
     height: 85%;
 }
-
-/*.wline{
-    width: 112px;
-    height: 47px;
-    border-bottom: 2px solid yellow;
+.vline{
+    width: 43px;
+    height: 200px;
+    border-left: 5px solid black;
     position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -100%;
+    left: 55%;
     width: 50%;
-    height: 85%;
-}*/
+    height: 100%;
+}
 
 .flow {
     margin-left: auto;
@@ -169,7 +167,7 @@ summary{
     overflow: hidden;
     position: relative;
     background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/InterNations-Expat-Blog_Professional-Networking_Pic-2.jpg) ;
-    height: 85vh;
+
     background-size: cover;
 }
 
@@ -198,8 +196,14 @@ summary{
 }
 
 .istexty{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     color: rgb(161, 161, 0);
+}
+
+.btext{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 500%;
 }
 
 .istextb{
@@ -312,6 +316,30 @@ summary{
 .carousel {
 }
 
+.aboutsquare{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 80%;
+    transform: translate(0%, -60%);
+    background: url(img/yih.png);
+    background-size: 100% 100%;
+}
+
+.aboutrectangle{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 100%;
+    transform: translate(0%, -60%);
+    background: url(img/yih.png);
+    background-size: 100% 100%;
+}
+
+.vertical{
+    width: 50%;
+    writing-mode: vertical-rl;
+    text-orientation: right;
+}
+
 .carousel img {
     position: relative;
       top: 0px;
@@ -329,18 +357,24 @@ summary{
     .toppad{
         padding-top: 11px;
     }
-    /*.Highlightscontaint {
-        top: 219%;
-    }*/
+    .aboutsquare{
+        transform: translate(0%, -70%);
+    }
+    .aboutrectangle{
+        transform: translate(0%, -70%);
+    }
 }
 
 @media screen and (min-width: 601px){
     .toppad{
         padding-top: 15px;
     }
-    /*.Highlightscontaint {
-        top: 171%;
-    }*/
+    .aboutsquare{
+        transform: translate(0%, -60%);
+    }
+    .aboutrectangle{
+        transform: translate(0%, -60%);
+    }
 }
 
 @media screen and ( min-width: 768px ) {
@@ -353,12 +387,18 @@ summary{
     h3.istexty {
       font-size: 3rem;
     }
+    h2.btext{
+        font-size: 500%;
+    }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
     h3.istexty {
       font-size: 2rem;
+    }
+    h2.btext{
+        font-size: 230%;
     }
   }
 
