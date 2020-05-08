@@ -429,7 +429,7 @@ summary{
         padding-top: 30%;
     }
     .supplier{
-        top: -230px;
+        top: -250px;
     }
     .retalier{
         top: -150px;
@@ -447,7 +447,7 @@ summary{
         top: 50px;
     }
     .retailtxt{
-        top: -200px;
+        top: -170px;
     }
     .lift{
         top:-250px;
@@ -456,7 +456,7 @@ summary{
         top: -250px;
     }
     .vertical{
-        top: 50px;
+        top: 100px;
     }
 }
 
