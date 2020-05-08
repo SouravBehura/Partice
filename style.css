@@ -438,16 +438,16 @@ summary{
         top: 0px;
     }
     .retaill{
-        top: 200px;
+        top: 1700px;
     }
     .retailr{
-        top: 170px;
+        top: 140px;
     }
     .retailer{
         top: 50px;
     }
     .retailtxt{
-        top: -170px;
+        top: -200px;
     }
     .lift{
         top:-250px;
@@ -456,7 +456,7 @@ summary{
         top: -250px;
     }
     .vertical{
-        top: 100px;
+        top: 75px;
     }
 }
 
