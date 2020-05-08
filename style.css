@@ -55,7 +55,6 @@ section{
 summary{
     background-color: black;
     background-size: cover;
-    padding-bottom: 20%;
 }
 
 .line{
@@ -69,15 +68,15 @@ summary{
     width: 50%;
     height: 85%;
 }
+
 .vline{
     width: 43px;
-    height: 200px;
+    height: 300px;
     border-left: 5px solid black;
     position: absolute;
-    top: -100%;
-    left: 55%;
+    top: -300px;
+    left: 60%;
     width: 50%;
-    height: 100%;
 }
 
 .flow {
@@ -317,19 +316,49 @@ summary{
 }
 
 .aboutsquare{
+    position: absolute;
     width: 80%;
     margin-left: 10%;
     padding-top: 80%;
-    transform: translate(0%, -60%);
+    top: 0%;
+    /*transform: translate(0%, -60%);*/
+    background: url(img/yih.png);
+    background-size: 100% 100%;
+}
+
+.bellow{
+    top: 200px;
+}
+
+.supplier{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 80%;
+    top: -200px;
+    /*transform: translate(0%, -60%);*/
+    background: url(img/yih.png);
+    background-size: 100% 100%;
+}
+
+.retalier{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 80%;
+    top: -200px;
+    /*transform: translate(0%, -60%);*/
     background: url(img/yih.png);
     background-size: 100% 100%;
 }
 
 .aboutrectangle{
+    position: relative;
     width: 80%;
     margin-left: 10%;
     padding-top: 100%;
-    transform: translate(0%, -60%);
+    /*transform: translate(0%, -60%);*/
+    top: -60%;
     background: url(img/yih.png);
     background-size: 100% 100%;
 }
@@ -346,22 +375,75 @@ summary{
       left: 0px;
       margin-right: 10px;
     display: block;
-    height: 200px;
 }
 
 .toppad{
     padding-top: 15px;
 }
 
+.abouttop{
+    padding-top: 0%;
+}
+
+.lift{
+  top:-300px;
+}
+
+.aboutbottom{
+    padding-bottom: 25%;
+}
+
+.retaill{
+    top: 50px;
+}
+
+.retailr{
+    top: 250px;
+}
+
+.retailtxt{
+    position: absolute;
+    font-family: Times New Roman, Times, serif; font-size: 400%;
+    top: 0px;
+    left: 30%;
+}
+
 @media screen and (max-width: 600px){
     .toppad{
         padding-top: 11px;
     }
-    .aboutsquare{
-        transform: translate(0%, -70%);
+    div.aboutsquare{
+        top: -1200px;
     }
     .aboutrectangle{
-        transform: translate(0%, -70%);
+        top: -75%;
+    }
+    .aboutbottom{
+        padding-bottom: 55%;
+    }
+    .abouttop{
+        padding-top: 30%;
+    }
+    .supplier{
+        top: -250px;
+    }
+    .retalier{
+        top: -250px;
+    }
+    .bellow{
+        top: 0px;
+    }
+    .retaill{
+        top: 100px;
+    }
+    .retailr{
+        top: 50px;
+    }
+    .retailer{
+        top: 50px;
+    }
+    .retailtxt{
+        top: -280px;
     }
 }
 
@@ -369,11 +451,35 @@ summary{
     .toppad{
         padding-top: 15px;
     }
-    .aboutsquare{
-        transform: translate(0%, -60%);
+    div.aboutsquare{
+        top: -50%;
     }
     .aboutrectangle{
-        transform: translate(0%, -60%);
+        top: -60%;
+    }
+    .aboutbottom{
+        padding-bottom: 25%;
+    }
+    .abouttop{
+        padding-top: 0%;
+    }
+    .supplier{
+        top: -200px;
+    }
+    .retalier{
+        top: -200px;
+    }
+    .bellow{
+        top: 200px;
+    }
+    .retaill{
+        top: 50px;
+    }
+    .retailr{
+        top: 320px;
+    }
+    .retailtxt{
+        top: -80px;
     }
 }
 
