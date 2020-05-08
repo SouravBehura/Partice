@@ -367,6 +367,7 @@ summary{
     width: 50%;
     writing-mode: vertical-rl;
     text-orientation: right;
+    top: 0px;
 }
 
 .carousel img {
@@ -435,10 +436,10 @@ summary{
         top: 0px;
     }
     .retaill{
-        top: 130px;
+        top: 150px;
     }
     .retailr{
-        top: 50px;
+        top: 100px;
     }
     .retailer{
         top: 50px;
@@ -451,6 +452,9 @@ summary{
     }
     .vline{
         top: -250px;
+    }
+    .vertical{
+        top: 50px;
     }
 }
 
@@ -493,6 +497,9 @@ summary{
     }
     .vline{
         top: -300px;
+    }
+    .vertical{
+        top: 0px;
     }
 }
 
