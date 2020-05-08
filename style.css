@@ -364,10 +364,12 @@ summary{
 }
 
 .vertical{
+    position: absolute;
     width: 50%;
     writing-mode: vertical-rl;
     text-orientation: right;
     top: 0px;
+    left: -5px;
 }
 
 .carousel img {
@@ -406,7 +408,7 @@ summary{
     position: absolute;
     width: 100%;
     font-family: Times New Roman, Times, serif; font-size: 400%;
-    top: 0px;
+    top: -80px;
     text-align: center;
 }
 
@@ -427,7 +429,7 @@ summary{
         padding-top: 30%;
     }
     .supplier{
-        top: -250px;
+        top: -230px;
     }
     .retalier{
         top: -150px;
@@ -436,16 +438,16 @@ summary{
         top: 0px;
     }
     .retaill{
-        top: 150px;
+        top: 200px;
     }
     .retailr{
-        top: 100px;
+        top: 170px;
     }
     .retailer{
         top: 50px;
     }
     .retailtxt{
-        top: -250px;
+        top: -200px;
     }
     .lift{
         top:-250px;
