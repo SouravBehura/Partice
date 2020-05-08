@@ -403,9 +403,10 @@ summary{
 
 .retailtxt{
     position: absolute;
+    width: 100%;
     font-family: Times New Roman, Times, serif; font-size: 400%;
     top: 0px;
-    left: 30%;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px){
@@ -428,7 +429,7 @@ summary{
         top: -250px;
     }
     .retalier{
-        top: -250px;
+        top: -150px;
     }
     .bellow{
         top: 0px;
@@ -443,7 +444,10 @@ summary{
         top: 50px;
     }
     .retailtxt{
-        top: -280px;
+        top: -250px;
+    }
+    .lift{
+        top:-280px;
     }
 }
 
@@ -480,6 +484,9 @@ summary{
     }
     .retailtxt{
         top: -80px;
+    }
+    .lift{
+        top:-300px;
     }
 }
 
