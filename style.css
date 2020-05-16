@@ -497,6 +497,10 @@ summary{
     top: -10%;
 }
 
+.youtube{
+    margin-top: 10rem;
+}
+
 @media screen and (max-width: 600px){
     .toppad{
         padding-top: 11px;
@@ -561,6 +565,9 @@ summary{
         top: -20%;
         font-size: medium;
     }
+    .youtube{
+        margin-top: 10rem;
+    }
 }
 
 @media screen and (min-width: 601px){
@@ -618,6 +625,9 @@ summary{
     .bvline{
         height: 110%;
         border-left: 10px solid black;
+    }
+    .youtube{
+        margin-top: 0rem;
     }
 }
 
