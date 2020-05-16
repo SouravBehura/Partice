@@ -326,6 +326,17 @@ summary{
     background-size: 100% 100%;
 }
 
+.communitysquare{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 80%;
+    top: 0%;
+    /*transform: translate(0%, -60%);*/
+    background: url(img/yih.png);
+    background-size: 100% 100%;
+}
+
 .bellow{
     top: 200px;
 }
@@ -506,7 +517,10 @@ summary{
         padding-top: 11px;
     }
     div.aboutsquare{
-        top: -1200px;
+        top: -1750px;
+    }
+    div.communitysquare{
+        top: -1650px;
     }
     .aboutrectangle{
         top: -75%;
@@ -515,7 +529,7 @@ summary{
         padding-bottom: 55%;
     }
     .abouttop{
-        padding-top: 30%;
+        padding-top: 150px;
     }
     .supplier{
         top: -250px;
@@ -575,6 +589,9 @@ summary{
         padding-top: 15px;
     }
     div.aboutsquare{
+        top: -50%;
+    }
+    div.communitysquare{
         top: -50%;
     }
     .aboutrectangle{
