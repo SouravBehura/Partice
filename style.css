@@ -9,15 +9,6 @@ header{
     background-size: cover;
 }
 
-#myVideo {
-    position: absolute;
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
-
 /*.heading{
     position: absolute;
     top: 50%;
@@ -322,7 +313,7 @@ summary{
     padding-top: 80%;
     top: 0%;
     /*transform: translate(0%, -60%);*/
-    background: url(img/yih.png);
+    background: url(img/kirana-1.jpg);
     background-size: 100% 100%;
 }
 
@@ -370,7 +361,7 @@ summary{
     padding-top: 100%;
     /*transform: translate(0%, -60%);*/
     top: -60%;
-    background: url(img/yih.png);
+    background: url(img/22165033.jpg);
     background-size: 100% 100%;
 }
 
@@ -378,7 +369,7 @@ summary{
     position: absolute;
     width: 50%;
     writing-mode: vertical-rl;
-    text-orientation: right;
+    text-orientation: left;
     top: 0px;
     left: -5px;
 }
