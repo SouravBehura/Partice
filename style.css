@@ -65,7 +65,7 @@ summary{
     height: 300px;
     border-left: 5px solid black;
     position: absolute;
-    top: -300px;
+    top: -200px;
     left: 60%;
     width: 50%;
 }
@@ -360,7 +360,7 @@ summary{
     margin-left: 10%;
     padding-top: 70%;
     /*transform: translate(0%, -60%);*/
-    top: -60%;
+    top: -70%;
     background: url(img/22165033.jpg);
     background-size: 100% 100%;
 }
@@ -391,7 +391,7 @@ summary{
 }
 
 .lift{
-  top:-300px;
+  top:-200px;
 }
 
 .aboutbottom{
@@ -496,7 +496,7 @@ summary{
 
 .wtext{
     position: absolute;
-    top: -10%;
+    top: -20%;
 }
 
 .youtube{
@@ -508,19 +508,19 @@ summary{
         padding-top: 11px;
     }
     div.aboutsquare{
-        top: -1750px;
+        top: -1530px;
     }
     div.communitysquare{
         top: -1650px;
     }
     .aboutrectangle{
-        top: -75%;
+        top: -80%;
     }
     .aboutbottom{
-        padding-bottom: 55%;
+        padding-bottom: 40%;
     }
     .abouttop{
-        padding-top: 150px;
+        padding-top: 50px;
     }
     .supplier{
         top: -250px;
@@ -544,13 +544,13 @@ summary{
         top: -200px;
     }
     .lift{
-        top:-250px;
+        top:-230px;
     }
     .vline{
-        top: -250px;
+        top: -230px;
     }
     .vertical{
-        top: 60px;
+        top: 75px;
     }
     .cdot {
         width: 12%;
@@ -567,7 +567,6 @@ summary{
         top: 80%;
     }
     .wtext{
-        top: -20%;
         font-size: medium;
     }
     .youtube{
@@ -586,10 +585,10 @@ summary{
         top: -50%;
     }
     .aboutrectangle{
-        top: -60%;
+        top: -70%;
     }
     .aboutbottom{
-        padding-bottom: 25%;
+        padding-bottom: 18%;
     }
     .abouttop{
         padding-top: 0%;
@@ -613,26 +612,26 @@ summary{
         top: -80px;
     }
     .lift{
-        top:-300px;
+        top:-200px;
     }
     .vline{
-        top: -300px;
+        top: -200px;
     }
     .vertical{
-        top: 0px;
+        top: 100px;
     }
     .cdot {
         width: 15%;
         padding-top: 15%;
-        margin-left: 1.8%;
-        margin-top: -16.7%;
+        margin-left: 1.55%;
+        margin-top: -16.55%;
     }
     .bhline{
-        border-bottom: 10px solid black;
+        border-bottom: 8px solid black;
     }
     .bvline{
-        height: 150%;
-        border-left: 10px solid black;
+        height: 185%;
+        border-left: 8px solid black;
     }
     .youtube{
         margin-top: 0rem;
