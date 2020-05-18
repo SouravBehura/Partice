@@ -306,6 +306,22 @@ summary{
 .carousel {
 }
 
+.flickity-page-dots {
+    bottom: 0px;
+  }
+  /* white circles */
+  .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: white;
+  }
+
 .aboutsquare{
     position: absolute;
     width: 80%;
@@ -640,7 +656,7 @@ summary{
 
 @media screen and ( min-width: 768px ) {
     .carousel img {
-      height: 400px;
+      height: 300px;
     }
   }
 
