@@ -310,7 +310,7 @@ summary{
     position: absolute;
     width: 80%;
     margin-left: 10%;
-    padding-top: 80%;
+    padding-top: 50%;
     top: 0%;
     /*transform: translate(0%, -60%);*/
     background: url(img/kirana-1.jpg);
@@ -358,7 +358,7 @@ summary{
     position: relative;
     width: 80%;
     margin-left: 10%;
-    padding-top: 100%;
+    padding-top: 70%;
     /*transform: translate(0%, -60%);*/
     top: -60%;
     background: url(img/22165033.jpg);
