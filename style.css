@@ -186,7 +186,7 @@ summary{
 }
 
 .istexty{
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Times New Roman, Times, serif;
     color: rgb(161, 161, 0);
 }
 
@@ -321,10 +321,10 @@ summary{
     position: absolute;
     width: 80%;
     margin-left: 10%;
-    padding-top: 80%;
+    padding-top: 50%;
     top: 0%;
     /*transform: translate(0%, -60%);*/
-    background: url(img/yih.png);
+    background: url(img/kirana-1.jpg);
     background-size: 100% 100%;
 }
 
@@ -369,8 +369,7 @@ summary{
     position: absolute;
     width: 50%;
     writing-mode: vertical-rl;
-    text-orientation: sideways-right;
-    text
+    text-orientation: sideways;
     top: 0px;
     left: -5px;
 }
