@@ -306,22 +306,6 @@ summary{
 .carousel {
 }
 
-.flickity-page-dots {
-    bottom: 0px;
-  }
-  /* white circles */
-  .flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid white;
-  }
-  /* fill-in selected dot */
-  .flickity-page-dots .dot.is-selected {
-    background: white;
-  }
-
 .aboutsquare{
     position: absolute;
     width: 80%;
@@ -385,7 +369,8 @@ summary{
     position: absolute;
     width: 50%;
     writing-mode: vertical-rl;
-    text-orientation: left;
+    text-orientation: sideways-right;
+    text
     top: 0px;
     left: -5px;
 }
@@ -472,7 +457,7 @@ summary{
     text-align: center;
 }
 
-.dot {
+.bdot {
     width: 20%;
     padding-top: 20%;
     background-color: black;
@@ -480,7 +465,7 @@ summary{
     display: inline-block;
 }
 
-.cdot {
+.wdot {
     position: absolute;
     width: 15%;
     padding-top: 15%;
@@ -519,11 +504,25 @@ summary{
     margin-top: 10rem;
 }
 
+.normaltxt{
+    font-size: large;
+}
+
+.hwwtxt{
+    margin-top: 10%;
+    font-size: xx-large;
+}
+
+.mvtxt{
+    font-size: 130%;
+}
+
 @media screen and (max-width: 600px){
     .toppad{
         padding-top: 11px;
     }
     div.aboutsquare{
+        left: -20%;
         top: -1630px;
     }
     div.communitysquare{
@@ -568,25 +567,36 @@ summary{
     .vertical{
         top: 75px;
     }
-    .cdot {
+    .wdot {
         width: 12%;
         padding-top: 12%;
-        margin-left: 2.3%;
-        margin-top: -14.1%;
+        margin-left: 2.4%;
+        margin-top: -14%;
     }
     .bhline{
         border-bottom: 5px solid black;
     }
     .bvline{
-        height: 350%;
+        height: 380%;
         border-left: 5px solid black;
-        top: 80%;
+        top: 75%;
     }
     .wtext{
         font-size: medium;
     }
     .youtube{
         margin-top: 10rem;
+    }
+    .normaltxt{
+        font-size: medium;
+    }
+    
+    .hwwtxt{
+        margin-top: 0%;
+        font-size: large;
+    }
+    .mvtxt{
+        font-size: medium;
     }
 }
 
@@ -636,7 +646,7 @@ summary{
     .vertical{
         top: 100px;
     }
-    .cdot {
+    .wdot {
         width: 15%;
         padding-top: 15%;
         margin-left: 1.55%;
@@ -651,6 +661,17 @@ summary{
     }
     .youtube{
         margin-top: 0rem;
+    }
+    .normaltxt{
+        font-size: large;
+    }
+    
+    .hwwtxt{
+        margin-top: 10%;
+        font-size: xx-large;
+    }
+    .mvtxt{
+        font-size: 130%;
     }
 }
 
