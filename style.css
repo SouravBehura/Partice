@@ -329,14 +329,14 @@ summary{
 }
 
 .bellow{
-    top: 200px;
+    top: 100px;
 }
 
 .supplier{
     position: absolute;
     width: 80%;
     margin-left: 10%;
-    padding-top: 80%;
+    padding-top: 70%;
     top: -200px;
     /*transform: translate(0%, -60%);*/
     background: url(img/yih.png);
@@ -370,6 +370,7 @@ summary{
     width: 50%;
     writing-mode: vertical-rl;
     text-orientation: sideways;
+    transform: rotate(180deg);
     top: 0px;
     left: -5px;
 }
@@ -625,7 +626,7 @@ summary{
         top: -200px;
     }
     .bellow{
-        top: 200px;
+        top: 130px;
     }
     .retaill{
         top: 50px;
