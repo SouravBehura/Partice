@@ -81,6 +81,27 @@ summary{
     content: no-repeat;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+}
+
+#this:hover {
+    opacity: 0.5;
+}
+
+#this:hover .middle {
+  opacity: 1;
+}
+
+
 .hlt{
     width: 95%;
     padding-top: 50%;
@@ -88,6 +109,9 @@ summary{
     position: relative;
     background-image: url(img/CMSfront.jpg);
     background-size: 100% 100%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .hrt{
@@ -209,17 +233,6 @@ summary{
     animation-iteration-count: infinite;
     animation-duration: 10s;
     animation-direction: alternate;*/
-}
-
-.middle {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    animation-name: fademiddle;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 10s;
-    animation-direction: alternate;
 }
 
 .blackback {
@@ -699,111 +712,3 @@ summary{
         font-size: 230%;
     }
   }
-
-  @keyframes fadetop {
-    0% {
-      opacity: 1;
-    }
-    20% {
-      opacity: 0;
-    }
-    40%{
-        opacity: 0;
-    }
-    60%{
-        opacity: 1;
-    }
-    80% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-    /*60% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
-    }
-    90% {
-        opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }*/
-  }
-
-  @keyframes fademiddle {
-    0% {
-        opacity: 0;
-    }
-    20% {
-        opacity: 1;
-    }
-    40%{
-        opacity: 0;
-    }
-    60%{
-        opacity: 0;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-    /*60% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
-    }
-    90% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }*/
-  }
-
-  /*@keyframes fadebottom {
-    0% {
-      opacity: 1;
-    }
-    20% {
-      opacity: 1;
-    }
-    40%{
-        opacity: 1;
-    }
-    60%{
-        opacity: 1;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-    /*60% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
-    }
-    90% {
-        opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }*/
