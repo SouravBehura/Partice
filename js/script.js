@@ -7,3 +7,24 @@ $(document).ready(function(){
     }
     });
 });
+
+let OTP = ''; 
+function sendEmail() {
+    var digits = '0123456789';
+    OTP = '';
+    for (let i = 0; i < 4; i++ ) { 
+        OTP += digits[Math.floor(Math.random() * 10)]; 
+    } 
+    Email.send({
+        //SecureToken : "00acee8d-67b9-4a20-86f7-0ce6f66f0d86",
+        Host : "smtp.gmail.com",
+        Username : "96.hement.kumar@gmail.com",
+        Password : "Demo@1996",
+        To : 'souravbehura97@gmail.com',
+        From : "96.hement.kumar@gmail.com",
+        Subject : "OTP for verrification",
+        Body : `<html><h2>Your OTP is:</h2><strong>${OTP}</strong><br></br></html>`
+    }).then(
+      message => alert("Please check your mail for OTP")
+    );
+}
