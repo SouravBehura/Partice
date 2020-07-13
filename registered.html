@@ -16,11 +16,9 @@
         <title>IGIL</title>
         <link rel="shortcut icon" type="image/x-icon" href="img/Logo5.png" />
 
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <!--<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-storage.js"></script>-->
     </head>
     <body>
         <main>
@@ -65,89 +63,7 @@
         </main>
 
         <section>
-          <!--<div style="margin-left: 40%;">
-            <form class="form-inline col-12">
-                <div class="form-group mr-1 col-12 m-3">
-                  <input type="text" class="form-control" id="exampleInputName2" placeholder="User ID">
-                </div>
-                <div class="form-group mr-1 col-12 m-3">
-                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-dark mr-1 m-3">Login</button>
-                <button type="submit" class="btn btn-success m-3">Register</button>
-            </form>
-          </div>-->
-          <div class="col-12" style="margin:0;padding:0;font-family: sans-serif;background: linear-gradient(#141e30, #243b55);padding-bottom: 50px;">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-4 m-5">
-                  <div class="login-box">
-                <h2>Login</h2>
-                <form>
-                    <div class="user-box">
-                    <input type="email" name="email" required="" id="login-email">
-                    <label>Email</label>
-                    </div>
-                    <div class="user-box">
-                    <input type="password" name="password" required="" id="login-password">
-                    <label>Password</label>
-                    </div>
-                    <div class="user-box"><p class="text-light" id="demo" onclick="myFunction()">Forgot Password</p></div>
-                    <a href="#">
-                      <button class="login-button" onclick="login()">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      submit</button>
-                      </a>
-                </form>
-            </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-7 login-box mt-5">
-                <h2>Register</h2>
-                <form>
-                    <div class="user-box">
-                      <input type="text" name="" required="">
-                      <label>Name</label>
-                    </div>
-                    <div class="user-box">
-                      <input type="email"  name="" required="" id="r-email">
-                      <label>Email Address</label>
-                    </div>
-                    <button  onclick="sendEmail()">Get OTP</button>
-                    <div class="user-box mt-3">
-                      <input type="OTP" name="" required="" id="otp">
-                      <label>OTP</label>
-                    </div>
-                    <div class="user-box">
-                      <select id="role" name="role">
-                        <option value="none" class="text-muted">Select Role</option>
-                        <option value="investor" class="text-muted">Inversor</option>
-                        <option value="retailer" class="text-muted">Retailer</option>
-                        <option value="scl" class="text-muted">Supply Clain Logistic</option>
-                        <option value="snm" class="text-muted">Supplier or Manufacturer</option>
-                      </select>
-                    </div>
-                    <div class="user-box">
-                      <input type="password" name="" required="" id="r-password">
-                      <label>Password</label>
-                    </div>
-                    <div class="user-box">
-                      <input type="password" name="" required="" id="r-cpassword">
-                      <label>Confirm Password</label>
-                    </div>
-                    <a href="#">
-                    <button class="login-button" onclick="register()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Register</button>
-                    </a>
-                </form>
-              </div>
-            </div>
-          </div>
+            <h1>Your are registered.</h1>
         </section>
 
         <footer>
@@ -204,7 +120,8 @@
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
         <script src="js/particles.js"></script>
-        <!--<script src="js/app.js"></script>-->
+        <script src="js/app.js"></script>
+        <script src="js/script.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();
@@ -214,17 +131,13 @@
             window.open("file:///C:/Users/soura/Documents/Web%20Pages/Asutosh%20bhai/html/index.html");
           }
         </script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-        <script src="js/script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
         <script>
           firebase.auth().onAuthStateChanged(function(user){
-            if(user)
-            { 
-              console.log("here");
-              alert("Read Console");
-              window.location.href = "registered.html";
+            if(!user)
+            {
+              window.location.href = "login.html";
             }
           });
         </script>
