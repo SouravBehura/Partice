@@ -1,12 +1,12 @@
-$(document).ready(function(){
-    $(window).scroll(function() { // check if scroll event happened
-    if ($(document).scrollTop() > 690) { // check if user scrolled more than 50 from top of the browser window
-        $(".navbar-fixed-top").css("background-color", "#000000"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-    } else {
-        $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
-    }
-    });
-});
+// $(document).ready(function(){
+//     $(window).scroll(function() { // check if scroll event happened
+//     if ($(document).scrollTop() > 690) { // check if user scrolled more than 50 from top of the browser window
+//         $(".navbar-fixed-top").css("background-color", "#000000"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+//     } else {
+//         $(".navbar-fixed-top").css("background-color", "transparent"); // if not, change it back to transparent
+//     }
+//     });
+// });
 
 let OTP = ''; 
 function sendEmail() {
@@ -30,20 +30,8 @@ function sendEmail() {
     );
 }
 
-var firebaseConfig = {
-    apiKey: "AIzaSyDKhu8wHKsZrtxxPly6JsUWU5GEmqTeQbU",
-    authDomain: "database-for-igil.firebaseapp.com",
-    databaseURL: "https://database-for-igil.firebaseio.com",
-    projectId: "database-for-igil",
-    storageBucket: "database-for-igil.appspot.com",
-    messagingSenderId: "351887413642",
-    appId: "1:351887413642:web:a0af1715a2475fbe477873",
-    measurementId: "G-D4CDDQ6VF2"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  firebase.auth.Auth.Persistence.LOCAL;
+
+  //firebase.auth.Auth.Persistence.LOCAL;
   /*firebase.auth().signInWithEmailAndPassword("souravbehura97@gmail.com", "demo123").catch(function(error) {
       var errorCode = error.code;
       var errorMessage = error.message;
@@ -53,25 +41,32 @@ var firebaseConfig = {
   });*/
 
 function login() {
-    var email = $("#login-email").val();
-    var password = $("#login-password").val();
-    firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        console.log(errorCode);
-        console.log(errorMessage);
-        window.alert("Message : " + errorMessage);
-    });
+    if (firebase.auth().currentUser) {
+        firebase.auth().signOut();  
+    } else {
+        var email = document.getElementById('login-email').value;
+        var password = document.getElementById('login-password').value;
+        console.log(email,password)
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log("errorCode",errorCode);
+            console.log("ERROR message",errorMessage);
+            window.alert("Message : " + errorMessage);
+         });
+
+         
+    }
 }
 
 function register() {
-    var email = $("#r-email").val();
-    var otp = $("#otp").val();
-    var password = $("#r-password").val();
-    var cpassword = $("#r-cpassword").val();
+    var email = document.getElementById('r-email').value;
+    var otp = document.getElementById('otp').value;
+    var password = document.getElementById('r-password').value;
+    var cpassword = document.getElementById('r-cpassword').value;
     //var name = $("#name").val();
-    var role = $("#role").val();
+    var role = document.getElementById('role').value;
     if(role.trim() === "none".trim()){
         alert("Select your role");
     }
@@ -80,8 +75,9 @@ function register() {
         if(password.trim() === cpassword.trim()){
             if(otp.trim() === OTP.trim())
             {
-                var password = $("#r-password").val();
-                var cpassword = $("#r-cpassword").val();
+                var password = document.getElementById('r-password').value;
+                var cpassword = document.getElementById('r-cpassword').value;
+                console.log(password, cpassword)
                 firebase.auth().createUserWithEmailAndPassword(email, password)
                 .catch(function(error) {
                 // Handle Errors here.
