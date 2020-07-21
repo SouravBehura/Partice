@@ -1,12 +1,62 @@
+
+
 body{
     margin:0;
     padding:0;
 }
 
 header{
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/phil-hearing-eTqPGpld2V0-unsplash.jpg) ;
+    /*background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/phil-hearing-eTqPGpld2V0-unsplash.jpg) ;
     height: 100vh;
+    background-size: cover;*/
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.slider{
+    position: relative;
+    width: 500%;
+    animation: animate 15s linear infinite;
+}
+
+.slide{
+    position: relative;
+    height: 100vh;
+    float: left;
+    width: 20%;
     background-size: cover;
+}
+
+.slide:nth-child(1){
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/Slides/Slide1/slide1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slide:nth-child(2){
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/Slides/Slide2/slide2.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slide:nth-child(3){
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/Slides/Slide3/phil-hearing-eTqPGpld2V0-unsplash.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
 }
 
 /*.heading{
