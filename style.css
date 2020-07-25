@@ -1,4 +1,32 @@
-
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
 
 body{
     margin:0;
@@ -6,15 +34,15 @@ body{
 }
 
 header{
-    /*background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/phil-hearing-eTqPGpld2V0-unsplash.jpg) ;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(img/phil-hearing-eTqPGpld2V0-unsplash.jpg) ;
     height: 100vh;
-    background-size: cover;*/
+    background-size: cover;
     width: 100%;
-    position: relative;
-    overflow-x: hidden;
+    /*position: relative;
+    overflow-x: hidden;*/
 }
 
-.slider{
+/*.slider{
     position: relative;
     width: 500%;
     animation: animate 15s linear infinite;
@@ -57,7 +85,7 @@ header{
     50%{
         left: -200%;
     }
-}
+}*/
 
 /*.heading{
     position: absolute;
@@ -85,16 +113,6 @@ header{
 
 footer{
     background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), rgb(50, 50, 50) ;
-    background-size: cover;
-}
-
-section{
-    background-color: white;
-    background-size: cover;
-}
-
-summary{
-    background-color: black;
     background-size: cover;
 }
 
@@ -470,47 +488,16 @@ summary{
     top: 250px;
 }
 
-.dropbtn {
-    background-color: black;
-    color: grey;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
+.dropdown-menu{
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: white;}
+    display: none;
+    top: 128px;
+    left: -5%;
+    width: 497.5%;
+    height: 50vh;
+    background-color: aqua;
+    z-index: 0;
+}
 
 .retailtxt{
     position: absolute;

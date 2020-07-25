@@ -22,96 +22,243 @@
         </style>
     </head>
     <body>
-        <header><!-- id="particles-js">-->
+        <header id="particles-js">
           <nav class="navbar navbar-expand-md navbar-dark navigation navbar-fixed-top blackback" style="margin-top: 0px;"><!--id="#myNav">-->
-              <div class="container">
+              <div style="position: relative;">
                   <img src="img/Logo5.png" class="logo-dedault" alt="logo"/>
                   <a href="index.html" class="navbar-brand text-white">
-                      <span class=" font-weight-bold">Indian Grocery Industries <sm-br>Ltd.</span>
+                      <span class=" font-weight-bold">Godownmart<br>Indian Grocery<br>Industries Limited<sm-br>Ltd.</span>
                   </a>
-                  <button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+                  <button class="navbar-toggler" data-toggle="collapse" data-target="#myNav" style="position: absolute; right: 0%; top: 0%;">
                       <span class="navbar-toggler-icon"></span>
                   </button>
-
                   <div class="collapse navbar-collapse" id="myNav">
-                      <ul class="navbar-nav ml-auto font-weight-bold">
-                          <li><!--class="nav-item"><a href="about.html" class="nav-link m-2">About</a>-->
-                            <div class="dropdown">
-                              <!--<a href="about.html" class="nav-link m-2">About</a>-->
-                              <button class="dropbtn">About</button>
-                              <div class="dropdown-content">
-                                <a href="companyoverview.html">Company Overview</a>
-                                <a href="igilcommunity.html">IGIL Community</a>
-                                <a href="godownmart.html">Godownmard- The Way Forward</a>
-                                <a href="investor.html">Investor Relationship</a>
-                                <a href="relationship.html">Our relationships</a>
-                                <a href="awards.html">Awards</a>
-                                <a href="partnership.html">Partnerships</a>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="nav-item"><a href="services.html" class="nav-link m-2">Services</a></li>
-                          <li class="nav-item"><a href="contact.html" class="nav-link m-2">Contact Us</a></li>
-                          <li class="nav-item"><a href="login.html" class="nav-link m-2">Login</a></li>
-                      </ul>
+                  <div style="height: 0;
+                              width: 400%;
+                              border-top: 150px solid rgb(224, 170, 1);
+                              border-left: 100px solid transparent;
+                              position:absolute;
+                              top:-7%;
+                              right:-393%;
+                              z-index: 1;">
                   </div>
+                  <div style="height: 0;
+                                width: 398.5%;
+                                border-top: 146px solid #000000;
+                                border-left: 98px solid transparent;
+                                position:absolute;
+                                top:-7%;
+                                right:-393%;
+                                z-index: 1;">
+                                <ul class="navbar-nav ml-auto font-weight-bold" style="position: absolute; left: 0%; top: -145px;">
+                                  <li class="nav-item"><div class="container" onclick="myFunction(this)">
+                                    <p> </p>
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                  </div></li>
+                                  <li class="nav-item"><div class="container" onclick="myFunction(this)">
+                                    <p> </p>
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                  </div></li>
+                                  <li class="nav-item"><div class="container" onclick="myFunction(this)">
+                                    <p> </p>
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                  </div></li>
+                                </ul>
+                                <ul class="navbar-nav ml-auto font-weight-bold" style="position: absolute; right: 0%; top: -60px;">
+                                  <li class="nav-item"><a href="services.html" class="nav-link m-2 text-light"><h4>Login</h4></a></li>
+                                  <li class="nav-item"><a href="contact.html" class="nav-link m-2 text-light"><h4>Join</h4></a></li>
+                                  <li class="nav-item">
+                                    <div class="dropdown">
+                                      <div class="container" onclick="myFunction(this)">
+                                      <p> </p>
+                                      <div class="bar1"></div>
+                                      <div class="bar2"></div>
+                                      <div class="bar3"></div>
+                                      </div>
+                                    </div>
+                                </li>
+                                </ul>
+                              </div>
+                  <div style="height: 0;
+                              width: 300%;
+                              border-top: 50px solid rgb(48, 43, 43);
+                              border-left: 40px solid transparent;
+                              position:absolute;
+                              top:-7%;
+                              right:-393%;
+                              z-index: 1;"></div>
+                  </div>
+                  <div class="dropdown-menu" id="drop-menu"></div>
               </div>
           </nav>
-
-            <!--<svg width="600" height="800" viewBox="0 0 1200 350">
-              M 800 0 Q 400 100 350 350 Q 350 450 450 500 Q 650 600 800 450 
-            </svg>-->
-            <div class="slider">
-              <div class="slide">
-                <div class="banner">
-                  <h1 class="banner-heading text-light">Turn This</h1>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="banner">
-                  <h1 class="banner-heading text-light"> <br>To This</h1>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="banner">
-                  <h1 class="banner-heading text-light">Smart Your Store<br>Just in Few Steps</h1>
-                  <button class="btn ml-5 mt-3" style="background-color: rgb(231, 231, 6);" type="button"  id="scrollb"><h3>Enroll Now</h3></button>
-                </div>
-              </div>
-            </div>
         </header>
         
         <section>
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <!-- section title -->
-                  <div class="title text-center">
-                    <h2 class="mt-5">Know Who we are...</h2>
-                    <!--<p >Descrime your services here </p>-->
-                    <div class="line"></div>
-                  </div>
-                  <!-- /section title -->
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12" style=" background-color: #000000; display: block;">
+              <div style="width: 15%; height: 36%; background-color: yellow; position: absolute; top: 0px; left: 10%;">
+                <div class="col-12" style="content: url(img/new/Untitled-4.png);"></div>
+              </div>
+              <h2 style="text-align: right; color: yellow;"><br><br>Heading</h2>
+              <h1 style="text-align: right; color: white;"><br>heading<br>text</h1>
+              <p style="text-align: right; color: whitesmoke;"><br>iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdw wqdjhvfjhjwdvjkjgwfd jhhwgfqdkuug Wov<br>
+                iwglijbwcdbilbid LDQ  IQGLIUWDGL IUYFDW yf DLIYF KUd dfkuyFY Dvbnobdwov</p>
+              <p style="text-align: right; color: whitesmoke;"><br>iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdw wqdjhvfjhjwdvjkjgwfd jhhwgfqdkuug Wov<br>
+                iwglijbwcdbilbid LDQ  IQGLIUWDGL IUYFDW yf DLIYF KUd dfkuyFY Dvbnobdwov</p>
+                <div style="position: relative;">
+                  <div style="border-bottom: 2px solid rgb(255, 255, 255);
+                              position: absolute;
+                              margin-top: 10%;
+                              right: 12%;
+                              width: 10%;
+                              height: 0%;"></div>
+                  <button style="position: absolute; 
+                                  right: 0px; margin-top: 7%;
+                                  margin-bottom: 50px;
+                                  background-color: white;
+                                  border-radius: 10px;
+                                  padding: 10px;" type="button">Read More</button>
                 </div>
-                <div class="col-12">
-                  <div class="text-center mt-5">
-                    <p class="normaltxt">Indian Grocery Industries Limited has prevailed as the radical catalyst to serve and evolve the
-                       Indian retailers' community. The rate of increase of Unorganised retailers is soaring high and has reached a stressful
-                        amount of 1.1 crores.  They withstand heavy baggage of not being acknowledged in the market and suffer tremendously to
-                         manage revenue and finance. Still, under IGIL, any unorganized retailer can enroll his business to gain links and have
-                          a full area of exposure to the market. IGIL works by the vision and cooperation of all retailers, suppliers, 
-                          manufacturers, consumers, and investors.There is no exaggeration in the fact that IGIL is a one-way solution of 
-                          all the difficulties that revolve around retailing. We sign an agreement with underprivileged retailers and provide 
-                          them numerous facilities like advertising their store, giving transportation facilities for their products. We also 
-                          modernize their stores through technology and provide a broader and greater market exposure. We even stand with them in 
-                          the financial crisis and help them with all we can provide. By doing so and sailing the unorganized retailers to the 
-                          shore of being organized, we play our part to level up the GDP. IGIL's vision is to continue the flux in the local 
-                          community and to take it upto greater heights and, at the same time, to make every individual involved in this ecosystem 
-                          to flourish and nurture.    </p>    
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12" style="background-color: #000000;">
+              <div class="col-12" style="content: url(img/new/Untitled-1.png);"></div>
+            </div>
+          </div>
+          <div class="col-12" style="background-color: #000000; padding-top: 100px; padding-bottom: 50px;">
+            <h1 style="text-align: center; color: white;">Here is text</h1>
+          </div>
+        </section>
+        
+        <section style="background-color: aliceblue;">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="row ml-4 mt-4">
+                <div class="col-md-6 col-sm-6 col-xs-12 mb-4">
+                  <div class="col-12" style="content: url(img/new/Untitled-5.png);"></div>
+                    <div style="position: absolute;
+                                width: 87.9%;
+                                height: 25%;
+                                background-color:rgba(0, 0, 0, 0.5);
+                                display: block;
+                                left: 6.1%;
+                                top: 75%;">
+                                <h1 style="text-align: center; color: white; margin-top: 7%;">BRAND</h1>
                   </div>
                 </div>
-            </div> <!-- End container -->
-        </section> <!-- End section -->
+                <div class="col-md-6 col-sm-6 col-xs-12 mb-4">
+                  <div class="col-12" style="content: url(img/new/Untitled-6.png);"></div>
+                    <div style="position: absolute;
+                                width: 87.9%;
+                                height: 25%;
+                                background-color:rgba(0, 0, 0, 0.5);
+                                display: block;
+                                left: 6.1%;
+                                top: 75%;">
+                                <h1 style="text-align: center; color: white; margin-top: 7%;">SMART STORE</h1>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 mb-4">
+                  <div class="col-12" style="content: url(img/new/Untitled-7.png);"></div>
+                    <div style="position: absolute;
+                                width: 87.9%;
+                                height: 25%;
+                                background-color:rgba(0, 0, 0, 0.5);
+                                display: block;
+                                left: 6.1%;
+                                top: 75%;">
+                                <h1 style="text-align: center; color: white; margin-top: 7%;">CMS</h1>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 mb-4">
+                  <div class="col-12" style="content: url(img/new/Untitled-8.png);"></div>
+                    <div style="position: absolute;
+                                width: 87.9%;
+                                height: 25%;
+                                background-color:rgba(0, 0, 0, 0.5);
+                                display: block;
+                                left: 6.1%;
+                                top: 75%;">
+                                <h1 style="text-align: center; color: white; margin-top: 7%;">SMART RM</h1>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12" style="position: relative;">
+              <div style="width: 15%; height: 26%; background-color: yellow; position: absolute; top: 0px; right: 10%;">
+                <div class="col-12" style="content: url(img/new/Untitled-4.png);"></div>
+              </div>
+              <h1 style="margin-top: 20%;">HIGHLIGHTS</h1>
+              <h2 style="margin-top: 5%;">Text<br>Here</h2>
+              <p style="margin-top: 4%;">hajhbkadfbbaskbjk<br>
+                jhqfkbkefbohlejblsjbie<br>
+                havkbkafklblkjba<br>
+                hajhbkadfbbaskbjk<br>
+                jhqfkbkefbohlejblsjbie<br>
+                havkbkafklblkjba<br>
+                hajhbkadfbbaskbjk<br>
+                jhqfkbkefbohlejblsjbie<br>
+                havkbkafklblkjba<br>
+                hajhbkadfbbaskbjk<br>
+                jhqfkbkefbohlejblsjbie<br>
+                havkbkafklblkjba<br></p>
+                <button style="
+                                  right: 0px; margin-top: 7%;
+                                  margin-bottom: 50px;
+                                  background-color: yellow;
+                                  border-radius: 10px;
+                                  padding: 10px;" type="button"><h3 class="ml-3 mr-3">READ MORE</h3></button>
+            </div>
+        </section>
+
+        <section>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12" style=" background-color: #000000; display: block;">
+              <div style="width: 15%; height: 36%; background-color: yellow; position: absolute; top: 0px; left: 10%;">
+                <div class="col-12" style="content: url(img/new/Untitled-4.png);"></div>
+              </div>
+              <h2 style="text-align: right; color: yellow;"><br><br>Heading</h2>
+              <h1 style="text-align: right; color: white;"><br>heading<br>text</h1>
+              <p style="text-align: right; color: whitesmoke;"><br>iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdw wqdjhvfjhjwdvjkjgwfd jhhwgfqdkuug Wov<br>
+                iwglijbwcdbilbid LDQ  IQGLIUWDGL IUYFDW yf DLIYF KUd dfkuyFY Dvbnobdwov</p>
+              <p style="text-align: right; color: whitesmoke;"><br>iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdwov<br>
+                iwglijbwcdbilbidvbnobdw wqdjhvfjhjwdvjkjgwfd jhhwgfqdkuug Wov<br>
+                iwglijbwcdbilbid LDQ  IQGLIUWDGL IUYFDW yf DLIYF KUd dfkuyFY Dvbnobdwov</p>
+                <div style="position: relative;">
+                  <div style="border-bottom: 2px solid rgb(255, 255, 255);
+                              position: absolute;
+                              margin-top: 10%;
+                              right: 12%;
+                              width: 10%;
+                              height: 0%;"></div>
+                  <button style="position: absolute; 
+                                  right: 0px; margin-top: 7%;
+                                  margin-bottom: 50px;
+                                  background-color: white;
+                                  border-radius: 10px;
+                                  padding: 10px;" type="button">Read More</button>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12" style="background-color: #000000;">
+              <div class="col-12" style="content: url(img/new/Untitled-1.png);"></div>
+            </div>
+          </div>
+          <div class="col-12" style="background-color: #000000; padding-top: 100px; padding-bottom: 50px;">
+            <h1 style="text-align: center; color: white;">Here is text</h1>
+          </div>
+        </section>
 
         <section>
           <div class="container">
@@ -451,11 +598,19 @@
           AOS.init();
         </script>
         <script>
-          function scroll() {
-              console.log("here");
-              window.scrollBy(0, 1000);;
+          var menu_status = "false";
+          document.getElementById("drop-menu").style.display = "none";
+          function myFunction(x) {
+              x.classList.toggle("change");
+              if(menu_status.trim() === "true".trim()){
+                  document.getElementById("drop-menu").style.display = "none";
+                  menu_status = "false";
+              }
+              else{
+                  document.getElementById("drop-menu").style.display = "block";
+                  menu_status = "true";
+              }
           }
-          document.getElementById("scrollb").addEventListener("click", scroll);
         </script>
     </body>
 </html>
